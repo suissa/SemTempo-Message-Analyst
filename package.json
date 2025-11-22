@@ -1,0 +1,25 @@
+{
+  "name": "semtempo-message-analyst",
+  "version": "1.0.0",
+  "description": "Uma biblioteca TypeScript para análise semântica e temporal de conversas de vendas do WhatsApp usando LLMs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "llm",
+    "gemini",
+    "whatsapp",
+    "vendas",
+    "analise-semantica"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
